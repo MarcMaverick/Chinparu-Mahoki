@@ -1,102 +1,90 @@
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
-
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-
-contract ChinparuToken is ERC20, Ownable {
-    uint256 public constant INITIAL_SUPPLY = 500_000_000 * 10 ** 18; // 500 Mio CHIT
-    uint256 public constant MAX_SUPPLY = 999_999_999 * 10 ** 18;     // Max. 999.999.999 CHIT
-
-    address public constant userAddress = 0x28F67a16Ebb46Eb01F89e304f4D3D6ddDAe2B1Fa;
-
-    address public projectReserve = userAddress;
-    address public partnershipReserve = userAddress;
-    address public teamReserve = userAddress;
-    address public communityReserve = userAddress;
-
-    constructor() ERC20("Chinparu Token", "CHIT") {
-        _mint(msg.sender, INITIAL_SUPPLY * 30 / 100);         // 30% an msg.sender für ICO
-        _mint(partnershipReserve, INITIAL_SUPPLY * 25 / 100); // 25% für Partnerschaften
-        _mint(projectReserve, INITIAL_SUPPLY * 20 / 100);     // 20% für Umweltprojekte
-        _mint(teamReserve, INITIAL_SUPPLY * 15 / 100);        // 15% für Team
-        _mint(communityReserve, INITIAL_SUPPLY * 10 / 100);   // 10% für Community
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CHINPARU - Decentralized Meme Coin</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #3a7bd5, #00d2ff, #a65ac4);
+      margin: 0;
+      padding: 0;
+      color: #fff;
     }
-
-    function mint(address to, uint256 amount) external onlyOwner {
-        require(totalSupply() + amount <= MAX_SUPPLY, "Max supply reached");
-        _mint(to, amount);
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 2rem;
+      text-align: center;
     }
-
-    function updateReserves(
-        address _projectReserve,
-        address _partnershipReserve,
-        address _teamReserve,
-        address _communityReserve
-    ) external onlyOwner {
-        require(_projectReserve != address(0), "Invalid address");
-        require(_partnershipReserve != address(0), "Invalid address");
-        require(_teamReserve != address(0), "Invalid address");
-        require(_communityReserve != address(0), "Invalid address");
-
-        projectReserve = _projectReserve;
-        partnershipReserve = _partnershipReserve;
-        teamReserve = _teamReserve;
-        communityReserve = _communityReserve;
+    header img {
+      height: 100px;
     }
-
-    function transferOwnership(address newOwner) public override onlyOwner {
-        require(newOwner != address(0), "New owner: zero address");
-        super.transferOwnership(newOwner);
+    header h1 {
+      margin-top: 1rem;
+      font-size: 2.5rem;
     }
-}
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
-
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-
-contract ChinparuToken is ERC20, Ownable {
-    uint256 public constant INITIAL_SUPPLY = 500_000_000 * 10 ** 18; // 500 Mio CHIT
-    uint256 public constant MAX_SUPPLY = 999_999_999 * 10 ** 18;     // Max. 999.999.999 CHIT
-
-    address public projectReserve     = 0x28F67a16Ebb46Eb01F89e304f4D3D6ddDAe2B1Fa;
-    address public partnershipReserve = 0x5AF03D04451a9E7406C4B7f992192FA16264548F;
-    address public teamReserve        = 0x163535ad23d9365867B6FC2484b5F935bBab3317;
-    address public communityReserve   = 0x9c6C6a3b902241911DB26c7d5a84A5872E6844A6;
-
-    constructor() ERC20("Chinparu Token", "CHIT") {
-        _mint(msg.sender, INITIAL_SUPPLY * 30 / 100);         // 30% für ICO
-        _mint(partnershipReserve, INITIAL_SUPPLY * 25 / 100); // 25% Partnerschaften
-        _mint(projectReserve, INITIAL_SUPPLY * 20 / 100);     // 20% Umweltprojekte
-        _mint(teamReserve, INITIAL_SUPPLY * 15 / 100);        // 15% Team
-        _mint(communityReserve, INITIAL_SUPPLY * 10 / 100);   // 10% Community
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 12px;
     }
-
-    function mint(address to, uint256 amount) external onlyOwner {
-        require(totalSupply() + amount <= MAX_SUPPLY, "Maximale Anzahl erreicht");
-        _mint(to, amount);
+    .token-address, .socials {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 1rem;
     }
-
-    function updateReserves(
-        address _projectReserve,
-        address _partnershipReserve,
-        address _teamReserve,
-        address _communityReserve
-    ) external onlyOwner {
-        require(_projectReserve != address(0), "Ungültige Adresse: Projektreserve");
-        require(_partnershipReserve != address(0), "Ungültige Adresse: Partnerschaft");
-        require(_teamReserve != address(0), "Ungültige Adresse: Teamreserve");
-        require(_communityReserve != address(0), "Ungültige Adresse: Communityreserve");
-
-        projectReserve = _projectReserve;
-        partnershipReserve = _partnershipReserve;
-        teamReserve = _teamReserve;
-        communityReserve = _communityReserve;
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
     }
-
-    function transferOwnership(address newOwner) public override onlyOwner {
-        require(newOwner != address(0), "Neuer Besitzer darf nicht die Nulladresse sein");
-        super.transferOwnership(newOwner);
+    a {
+      color: #ffffff;
+      text-decoration: underline;
     }
-}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="alien-logo.png" alt="CHINPARU Logo" />
+    <h1>CHINPARU Token</h1>
+    <p>The decentralized meme project with heart and purpose.</p>
+  </header>
+
+  <section>
+    <h2>About the Project</h2>
+    <p>
+      CHINPARU is a 100% decentralized meme-coin on Ethereum combining humor, transparency, and eco-conscious community values.
+      No taxes. No minting. No owner or admin rights. Tokens are distributed across 19 wallets for maximum decentralization.
+    </p>
+
+    <div class="token-address">
+      <h3>Token Contract Address:</h3>
+      <code>0x28f67a16ebb46eb01f89e304f4d3d6dddae2b1fa</code>
+    </div>
+
+    <div class="socials">
+      <h3>Follow Us</h3>
+      <ul>
+        <li>Telegram: <a href="https://t.me/ChinparuCommunity" target="_blank">@ChinparuCommunity</a></li>
+        <li>Twitter/X: <a href="https://twitter.com/ChinparuToken" target="_blank">@ChinparuToken</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 CHINPARU Token. Built for the community. Alien-powered.
+  </footer>
+</body>
+</html>
+
+CHINPARU Token:
+💡 Was ist Chinparu?
+Chinparu (CHINP) ist ein dezentraler Meme-Token, der echte Community-Beteiligung, Spaß und Solidarität in den Vordergrund stellt. Kein Rugpull, kein Scam – nur Memes, Energie und Web3-Innovation
+
+https://web3.okx.com/de/token/ethereum/0x5af03d04451a9e7406c4b7f992192fa16264548f?shareSource=app&t=1749665201391&deeplink=okx%253A%252F%252Fwallet%252Fdex%252Fcoin%252Fdetail%253FchainId%253D1%2526tokenContractAddress%253D0x5af03d04451a9e7406c4b7f992192fa16264548f
+$MAHOKI GLR schlägt Wellen! Steigen Sie in OKX DEX ein und nutzen Sie das Momentum. DYOR!
