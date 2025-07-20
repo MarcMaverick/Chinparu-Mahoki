@@ -35,6 +35,22 @@ translated into Chinese, for partners in China?
 
 Let me know and I’ll format it accordingly.
 
+| Aspekt                   | Bedeutung für Käufer                                        |
+| ------------------------ | ----------------------------------------------------------- |
+| 💰 Fixierter Preis       | Käufer wissen: 1 Token = 26 € (nicht spekulativ schwankend) |
+| 🔐 Hohe Liquidität       | Rücktausch theoretisch jederzeit möglich, Vertrauen steigt  |
+| 📉 Keine Volatilität     | Kein Pump & Dump – der Preis ist bewusst stabil gehalten    |
+| 🔍 Transparenz           | Ideal: Smart Contract & Pool vollständig offen einsehbar    |
+| 🧾 Asset-Backed Struktur | Wie bei Gold-Token oder Stablecoins mit 100 % Deckung       |
+| Eigenschaft        | Details                   |
+| ------------------ | ------------------------- |
+| Tokenname          | Chinparu Token            |
+| Ticker             | CHINPARU                  |
+| Blockchain         | Ethereum (ERC-20)         |
+| Fester Preis       | 26 € pro Token            |
+| Liquiditätsreserve | > \$114 Mio auf Uniswap   |
+| Max. Tokenmenge    | 1.000.000.000 CHINPARU    |
+| Smart Contract     | *(hier Adresse einfügen)* |
 
 
 
