@@ -43,7 +43,7 @@ Let me know and I’ll format it accordingly.
 | 🔍 Transparenz           | Ideal: Smart Contract & Pool vollständig offen einsehbar    |
 | 🧾 Asset-Backed Struktur | Wie bei Gold-Token oder Stablecoins mit 100 % Deckung       |
 | Eigenschaft        | Details                   |
-| ------------------ | ------------------------- |
+| Der Preis ist an Etherreum gebunden kann steigen und fallen.|
 | Tokenname          | Chinparu Token            |
 | Ticker             | CHINPARU                  |
 | Blockchain         | Ethereum (ERC-20)         |
