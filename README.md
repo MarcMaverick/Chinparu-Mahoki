@@ -55,7 +55,7 @@ Let me know and I’ll format it accordingly.
 ### So sichern Sie sich Belohnungen, XP & Abzeichen im Chinparu-Ökosystem  
 
 **Autor:** *Chinparu Token Team*  
-**Veröffentlicht:** *27. Oktober 2025*  
+**Veröffentlicht:** *09.09.2025*  
 **Lesezeit:** *≈ 8 Minuten*  
 
 ---
