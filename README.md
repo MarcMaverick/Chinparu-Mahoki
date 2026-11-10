@@ -1,61 +1,67 @@
 # Chinparu Token (CHINPARU)
 
-**An experimental ERC-20 token focused on ecological Web3 projects.**
+# THE GREEN FORCE OF WEB3
 
-Chinparu is a community-driven project aiming to connect and support green blockchain initiatives — including Green DeFi, ReFi, Climate NFTs, Carbon Tokens, and nature-based DAOs.
+**ONE TOKEN. ONE MISSION. ONE FUTURE.**
 
-> **Note:** This project is in a very early stage. Most of the planned features have not been implemented yet.
+Chinparu is not just another token.  
+It is a movement. A vision. A call to every green project in Web3.
 
----
-
-## Token Information
-
-| Property             | Details                                                                 |
-|----------------------|-------------------------------------------------------------------------|
-| **Name**             | Chinparu Token                                                          |
-| **Ticker**           | CHINPARU                                                                |
-| **Blockchain**       | Ethereum                                                                |
-| **Standard**         | ERC-20                                                                  |
-| **Max Supply**       | 1,000,000,000 CHINPARU                                                  |
-| **Contract Address** | [`0x28F67a16Ebb46Eb01F89e304f4D3D6ddDAe2B1Fa`](https://etherscan.io/token/0x28F67a16Ebb46Eb01F89e304f4D3D6ddDAe2B1Fa) |
-| **Decimals**         | 18                                                                      |
+We are building the unifying force that brings together Green DeFi, Climate NFTs, Carbon Tokens, ReFi protocols, and nature-based DAOs under one powerful banner.
 
 ---
 
-## Current Status (November 2026)
+## Why Chinparu Will Matter
 
-- The token is deployed and verified on Ethereum.
-- Ownership has been renounced.
-- On-chain activity and the number of holders are currently very low.
-- There is **no significant liquidity** and **no active market** at this time.
-- Planned features (AI-powered logic, Eco-Alliance, staking, governance, etc.) are currently only **visionary goals** and have not been implemented.
+🌱 **The Green Alliance**  
+Chinparu is designed to become the connecting layer for the entire ecological blockchain ecosystem. One token. Shared strength. Collective impact.
 
----
+⚡ **Built for Growth**  
+Deployed on Ethereum. Tradeable on Uniswap. Ownership renounced. Fully open and ready for the community to take it further.
 
-## Vision
+🌍 **More Than Code**  
+This is about real-world impact, ecological awareness, and giving green projects the visibility and support they deserve.
 
-Chinparu aims to:
-
-- Connect ecological Web3 projects under a shared banner
-- Promote education and awareness around sustainable blockchain use cases
-- Develop community-driven mechanisms (e.g. rewards for engagement)
-
-We are not here to compete with existing projects.  
-We want to create a connecting layer that helps green initiatives grow together.
+🚀 **Early Stage. High Potential.**  
+The foundation is already live. The vision is clear. The community that joins now helps shape what comes next.
 
 ---
 
-## Repository Structure
+## Token Overview
 
-```text
-├── contracts/          # Smart contracts
-├── docs/               # Documentation
-├── README.md
-└── ...
+| Detail               | Information                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| **Name**             | Chinparu Token                                                              |
+| **Ticker**           | CHINPARU                                                                    |
+| **Network**          | Ethereum                                                                    |
+| **Standard**         | ERC-20                                                                      |
+| **Max Supply**       | 1,000,000,000 CHINPARU                                                      |
+| **Contract**         | [`0x28F67a16Ebb46Eb01F89e304f4D3D6ddDAe2B1Fa`](https://etherscan.io/token/0x28F67a16Ebb46Eb01F89e304f4D3D6ddDAe2B1Fa) |
+| **Available on**     | Uniswap                                                                     |
 
 ---
 
-Diese Version ist klar, ehrlich und professionell.  
-Du kannst sie direkt so in die `README.md` kopieren.
+## The Mission
 
-Möchtest du noch Anpassungen (z. B. etwas formeller, kürzer, oder mit zusätzlichen Abschnitten)?
+We are not here to compete.  
+We are here to **connect**, **amplify**, and **empower** every project that fights for a more sustainable future on the blockchain.
+
+Chinparu exists to turn isolated green initiatives into a united force.
+
+---
+
+## Join the Green Union of Web3
+
+The token is live.  
+The contract is verified.  
+The movement is starting.
+
+Be early. Be part of it.
+
+**Contract Address:**  
+`0x28F67a16Ebb46Eb01F89e304f4D3D6ddDAe2B1Fa`
+
+---
+
+**CHINPARU** — The Green Force of Web3.  
+One Token. One Mission. One Future. 💚
